@@ -1,0 +1,43 @@
+img.zoom 
+{
+    transition:transform 0.25s ease;
+}
+img.zoom:hover 
+{ 
+    -webkit-transform:scale(3); 
+    transform:scale(3);
+}
+
+.sidebar
+{
+    display: flex;
+    flex-direction: column;
+    background-color: #afafaf;
+    padding: 20px;
+}
+
+.resume-sheet
+{
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+
+.column-flex
+{
+    display: flex;
+    flex-direction: column;
+    background-color: #afafaf;
+    padding: 20px;
+}
+
+.row-flex
+{
+    display: flex;
+    flex-direction: row;
+}
+
+.align-center
+{
+    text-align: center;
+}
